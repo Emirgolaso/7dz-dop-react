@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://www.zdnet.com/a/img/resize/7785b7c0f631768baa57280e841cd4c63bc44f08/2023/12/08/b00a8fe9-fbe4-4b7e-9d14-33b567c69a12/gettyimages-1437733786.jpg?auto=webp&fit=crop&height=1200&width=1200);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.calc {
+    width: 500px;
+    height: 400px;
+    background-color: #fe3d3d;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+}
+.calc h2{
+    text-align: center;
+}
+.calc input{
+    width: 50%;height: 20px;
+}
+.calc button{
+    width: 10%;height: 40px;margin: 15px;
+}
+.calc p{
+    text-align: center;
+    margin: 50px;
+    font-size: 40px;
+}
